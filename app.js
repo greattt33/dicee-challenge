@@ -1,8 +1,8 @@
 
 const number1= Math.floor(Math.random()*6)+1;
 const number2= Math.floor(Math.random()*6)+1;
-const player1Number= "C:/Users/ASUS/Desktop/web development/boss challenge/image/dice"+number1+".png"
-const player2Number= "C:/Users/ASUS/Desktop/web development/boss challenge/image/dice"+number2+".png"
+const player1Number= "dice"+number1+".png"
+const player2Number= "dice"+number2+".png"
 function newNumber(){
 return (document.querySelectorAll("img")[0].setAttribute("src",player1Number),
 document.querySelectorAll("img")[1].setAttribute("src",player2Number));
